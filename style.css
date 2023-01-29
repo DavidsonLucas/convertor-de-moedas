@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    line-height: 18px;
+    font-style: normal;
+
+}
+
+body{
+    background-color: #E5E5E5;;
+}
+
+
+.conteiner{
+    width: 375px;
+    background-color: #f4f4f4;
+    margin: 0 auto;
+    margin-top: 80px;
+
+}
+
+header{
+    background-color:  #1B83E2;
+    padding: 24px 50px;
+}
+
+h1{
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #F4F4F4;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    
+}
+
+label{
+    font-weight: 400;
+    font-size: 14px;
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    color: #777777;
+
+    }
+samp{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.arumando{
+    display: flex;
+    gap: 5px;
+}
+
+select{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    width: 327px;
+    height: 48px;
+    cursor: pointer;
+    outline: none;
+    appearance: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0 , 0 ,0 ,.15);
+    margin-top: 6px;
+    margin-bottom: 24px;
+}
+
+input{
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    width: 327px;
+    height: 48px;
+    outline: none;
+    padding-left: 16px;
+    box-shadow: 2px 2px 5px rgba(0 , 0 ,0 ,.15);
+    font-size: 18px;
+    margin-top: 4px;
+    margin-bottom: 24px;
+}
+
+button{
+    background:  #1B83E2;     
+    width:327px;
+    height:48px;
+    border-Radius:25px;
+    color: #F4F4F4;
+    border: none;
+    box-shadow: 2px 2px 5px rgba(0 , 0 ,0 ,.15);
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 36px;
+}
+
+button:hover{
+    background: #4a9fee;
+}
+
+button:active{
+    opacity: .5;
+}
+
+section{
+    width:327px;
+    height:276px;
+    border: 1px solid #1B83E2;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px
+}
+
+.sectionPartes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    margin-bottom: 4px;
+}
+
+.paragrafoTexto{
+    font-weight: 400;
+    font-size: 14px;
+    
+    color: #777777;
+    margin-bottom: 3px;
+}
+
+.paragrafoNumero{
+    font-weight: 700;
+    font-size: 20px;
+    color: #1B83E2;
+}
