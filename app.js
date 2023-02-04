@@ -50,7 +50,7 @@ chagecurrency = () => {
     } else {
         trocarNime.innerHTML = 'Dólar Americano'
         trocarImg.src = 'assets/estados-unidos (1) 1.svg'
-        trocarBack.style.backgroundImage = `url(${'assets/badeira-do-estadosunidos.gif'})`;
+        trocarBack.style.backgroundImage = `url(${'assets/badeiradoestadosunidos.gif'})`;
     }
 
     if(select.value === 'Bitcoin'){
