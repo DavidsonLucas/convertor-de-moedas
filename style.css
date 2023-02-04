@@ -14,7 +14,8 @@ body{
 
 
 .conteiner{
-    width: 375px;
+    width: 90%;
+    max-width: 375px;
     background-color: #f4f4f4;
     margin: 0 auto;
     margin-top: 80px;
